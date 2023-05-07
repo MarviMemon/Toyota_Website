@@ -1,0 +1,455 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  background-color: whitesmoke;
+  line-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  padding-left:200px;
+}
+
+.logo h2 {
+  text-transform: uppercase;
+  color: red;
+  font-weight: bold;
+  font-size: 2rem; 
+}
+.links ul {
+  float: right;
+}
+.links ul li {
+  display: inline;
+}
+.links ul li a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: black;
+  font-weight: 600;  
+}
+.links ul li a:hover{
+   color: rgb(73, 69, 69);
+}
+
+.btns {
+  padding-right: 180px;
+}
+
+.btns button {
+  padding: 5px;
+  background-color: transparent;
+  border: 2px solid black;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 13px;
+}
+ .btns button:hover {
+  border-color: red;
+  color: red;
+  transition: 0.3s;
+}
+
+.banner {
+  width: 100%;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.banner:hover {
+  opacity: 0.9;
+  transition: 0.3s;
+}
+
+.banner .left-box > img {
+  width: 250px;
+  height: 200px;
+}
+
+.right-box {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://www.supercars.net/blog/wp-content/uploads/2017/10/lamborghini_egoista_concept_car-1920x1200.jpg");
+  background-position: center;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.slider-container {
+  width: 100%;
+  height: 70vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.slider-container .img {
+  background-image: url("https://hips.hearstapps.com/hmg-prod/images/2023-chevrolet-corvette-z06-002-1635950091.jpg");
+  background-position: center;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.slider-container .text {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1rem;
+}
+
+.management {
+  width: 100%;
+  height: auto;
+}
+
+.management .box {
+  width: 100%;
+  height: 70vh;
+  color: white;
+  display: flex;
+  align-items: end;
+  padding: 20px;
+}
+
+.content button {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.content p {
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.content h1 {
+  font-size: 2rem;
+  color: white;
+}
+
+#box1 {
+  height: 50vh;
+  background-image: url("https://foreignpolicy.com/wp-content/uploads/2023/03/XI-CHINA-AFRICA-GettyImages-1236885558.png?w=800&h=533&quality=90");
+  background-position: center;
+  background-siz: cover;
+  opacity: 1.0;
+   
+}
+
+#box1:hover{
+  opacity: 0.5;
+}
+#box2 {
+  height: 50vh;
+  background-image: url("https://www.byd.com/content/dam/byd-site/mx/homepage/homepage%20han.jpg");
+  background-position: center;
+  background-size: cover;
+  opacity: 1.0;
+  
+}
+#box2:hover{
+  opacity: 0.5;
+
+}
+
+.news-section {
+  width: 100%;
+  height: 50vh;
+  /* background-color: aquamarine; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+
+.news-section > div {
+  /* background-color: blueviolet; */
+  display: flex;
+  flex-direction: column;
+}
+
+.news-section > div > h1 {
+  margin: 20px 20px;
+  font-size: 2.5vw;
+}
+
+.news-section > div .news {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 2px;
+  margin-top: 2px;
+}
+
+.news .imgBox {
+  background-color: red;
+ 
+}
+
+#short1{
+  background-image: url("https://qrec.gov.qa/wp-content/uploads/2022/12/EMPEROR-MAXIMUS-winner-of-QATAR-DERBY-QA-Gr1_5-1024x681.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#short2{
+  background-image:  url(https://www.gannett-cdn.com/presto/2022/03/28/USAT/794af19a-a423-4b7c-9c19-84b399c547c0-chastain.jpg?width=1200&disable=upscale&format=pjpg&auto=webp);
+  background-position: center;
+  background-size: cover;
+}
+
+#short3{
+  background-image: url(https://e0.pxfuel.com/wallpapers/821/664/desktop-wallpaper-toyota-logo-black-toyota-thumbnail.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#short4{
+  background-image: url( "https://www.bentleymotors.com/content/dam/bentley/Master/homepage%20carousel/1024x512_icon_4.jpg/_jcr_content/renditions/original.image_file.700.350.file/1024x512_icon_4.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#short5{
+  background-image: url("https://media.istockphoto.com/id/1346372636/photo/two-red-racing-cars-moving-at-high-speed-along-racetrack-at-sunset.jpg?b=1&s=170667a&w=0&k=20&c=5cK9a3G_SRyYd6CwpxqFIAs4qZ6p4Gk-Qu1oFoK2sTI= ");
+  background-position: center;
+  background-size: cover;
+}
+
+#short6{
+  background-image: url(https://e0.pxfuel.com/wallpapers/821/664/desktop-wallpaper-toyota-logo-black-toyota-thumbnail.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#short7{
+  background-image: url("https://media.istockphoto.com/id/1346372636/photo/two-red-racing-cars-moving-at-high-speed-along-racetrack-at-sunset.jpg?b=1&s=170667a&w=0&k=20&c=5cK9a3G_SRyYd6CwpxqFIAs4qZ6p4Gk-Qu1oFoK2sTI= ");
+  background-position: center;
+  background-size: cover;
+}
+#short7{
+  background-image: url("https://qrec.gov.qa/wp-content/uploads/2022/12/EMPEROR-MAXIMUS-winner-of-QATAR-DERBY-QA-Gr1_5-1024x681.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#short8{
+  background-image: url("https://media.istockphoto.com/id/1346372636/photo/two-red-racing-cars-moving-at-high-speed-along-racetrack-at-sunset.jpg?b=1&s=170667a&w=0&k=20&c=5cK9a3G_SRyYd6CwpxqFIAs4qZ6p4Gk-Qu1oFoK2sTI= ");
+  background-position: center;
+  background-size: cover;
+}
+#short9{
+  background-image: url(" https://cdni.autocarindia.com/utils/imageresizer.ashx?n=http://img.haymarketsac.in/autocarpro/48e7571c-7187-48ee-8c59-26cdd160f929_bentley%20Q3_results.jpg&w=735&h=490&q=80");
+  background-position: center;
+  background-size: cover;
+}
+#short10{
+  background-image: url("https://www.bentleymotors.com/content/dam/bentley/Master/Models/Hero/New%20Continental%20GT/new%20continental%20gt%20location%20by%20mountains%20and%20lake%20image%20shot%2007%201920x670.jpg/_jcr_content/renditions/original./new%20continental%20gt%20location%20by%20mountains%20and%20lake%20image%20shot%2007%201920x670.jpg  ");
+  background-position: center;
+  background-size: cover;
+}
+.content-2{
+  color: white;
+  padding-top: 400px;
+  padding-right: 60px;
+}
+.content-2 button{
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+
+   
+}
+.content-2 p{
+  padding: 5px;
+}
+
+.news .txtBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+#brands {
+  width: 100%;
+  height: 80vh;
+  /* background-color: pink; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+   
+}
+
+#brands .brand {
+  margin-top: 200px;
+  width: 25%;
+  height: 200px;
+  text-align: center;
+  padding: 0;
+  opacity: 1.0;
+}
+#brands .brand:hover{
+  opacity: 0.5;
+}
+
+.brand > img {
+  width: 300px;
+  height: 80%;
+  object-fit: contain;
+
+
+}
+
+.notices {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 250px;
+  background-color: rgb(245, 239, 239);
+}
+
+.notices h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.notices > div > p {
+  color: grey;
+  /* font-size: 11px; */
+  margin: 5px 0;
+}
+
+.notices > div > p > a {
+  text-decoration: none;
+  color: rgb(16, 16, 87);
+  font-size: 15px !important;
+  font-weight: 500;
+}
+
+.notices > div > p > a:hover {
+  color: blue;
+  transition: 0.3s;
+}
+
+footer {
+  width: 100%;
+  height: 40vh;
+  background-color: grey;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  border-right: 2px solid white;
+}
+
+footer > div > p {
+  margin-top: 10px;
+}
+
+footer > div > p > a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+footer > div > p > a:hover {
+  color: black;
+  transition: 0.3s;
+}
+
+.footer {
+  background-color:   black;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  color: white;
+}
+
+.footer > p > span {
+  border: 1px solid white;
+  height: 10px;
+  margin: 0 5px;
+}
+
+.icon{
+  display: flex; 
+  padding: 10px;
+   
+}
+.icon li{
+  padding: 16px;
+  list-style: none;
+  
+}
+.icon li a{
+  color: black;
+  font-size: 25px;
+  transition: all .4s;
+}
+.icon li a:hover{
+  color: white;
+  
+}
+
+
+
+@media screen and (min-width: 601px) and (max-width: 1100px) {
+  .banner {
+    height: 35vh;
+  }
+  .slider-container {
+    width: 100%;
+    height: 30vh;
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav {
+    flex-wrap: wrap;
+  }
+  /* .links ul {
+    display: none;
+  }
+  .btns {
+    display: none;
+  } */
+
+  #line {
+    display: none;
+  }
+  .banner {
+    grid-template-columns: 1fr;
+  }
+  .banner .left-box {
+    display: none;
+  }
+}
